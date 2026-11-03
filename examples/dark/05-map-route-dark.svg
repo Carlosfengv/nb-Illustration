@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="336" viewBox="0 0 336 336" role="img" aria-labelledby="title desc">
+<title id="title">路径定位 · dark</title><desc id="desc">A route through a muted network ends at the current location.</desc>
+<defs>
+  <linearGradient id="frame-edge" x2="0" y2="1">
+    <stop stop-color="#3E3E3E"/><stop offset=".57" stop-color="#3E3E3E" stop-opacity=".73"/>
+    <stop offset="1" stop-color="#353535" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="idle-face" x2=".28" y2="1">
+    <stop stop-color="#292929"/><stop offset="1" stop-color="#242424"/>
+  </linearGradient>
+  <linearGradient id="active-face" x2=".3" y2="1">
+    <stop stop-color="#454545"/><stop offset=".46" stop-color="#292929"/><stop offset="1" stop-color="#282828"/>
+  </linearGradient>
+  <linearGradient id="active-rim" x2=".35" y2="1">
+    <stop stop-color="#BCBCBC"/><stop offset=".58" stop-color="#727272"/><stop offset="1" stop-color="#585858"/>
+  </linearGradient>
+  <linearGradient id="sheen" x2="0" y2="1">
+    <stop stop-color="#C2C2C2" stop-opacity=".57"/><stop offset=".48" stop-color="#C2C2C2" stop-opacity=".19"/>
+    <stop offset="1" stop-color="#C2C2C2" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="halo">
+    <stop stop-color="#B5B5B5" stop-opacity=".115"/><stop offset=".63" stop-color="#B5B5B5" stop-opacity=".04"/>
+    <stop offset="1" stop-color="#B5B5B5" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="area" gradientUnits="userSpaceOnUse" x1="0" y1="130" x2="0" y2="304">
+    <stop stop-color="#727272" stop-opacity=".31"/><stop offset="1" stop-color="#727272" stop-opacity=".025"/>
+  </linearGradient>
+  <linearGradient id="chart-line" gradientUnits="userSpaceOnUse" x1="30" y1="0" x2="310" y2="0">
+    <stop stop-color="#3E3E3E"/><stop offset=".43" stop-color="#9A9A9A"/><stop offset=".72" stop-color="#727272"/>
+    <stop offset="1" stop-color="#3E3E3E"/>
+  </linearGradient>
+  <linearGradient id="skin" x2=".85" y2="1">
+    <stop stop-color="#DFDFDF"/><stop offset=".68" stop-color="#DFDFDF"/><stop offset="1" stop-color="#8E8E8E"/>
+  </linearGradient>
+  <linearGradient id="cloth" x2=".9" y2="1">
+    <stop stop-color="#8E8E8E"/><stop offset=".45" stop-color="#444444"/><stop offset="1" stop-color="#282828"/>
+  </linearGradient>
+  <radialGradient id="periphery-fade" gradientUnits="userSpaceOnUse" cx="168" cy="164" r="185">
+    <stop offset=".39" stop-color="#FFFFFF"/><stop offset=".77" stop-color="#FFFFFF" stop-opacity=".53"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="lower-fade" gradientUnits="userSpaceOnUse" x1="0" y1="194" x2="0" y2="327">
+    <stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <mask id="periphery" maskUnits="userSpaceOnUse" x="0" y="0" width="336" height="336">
+    <rect width="336" height="336" fill="url(#periphery-fade)"/>
+  </mask>
+  <mask id="lower" maskUnits="userSpaceOnUse" x="0" y="0" width="336" height="336">
+    <rect width="336" height="336" fill="url(#lower-fade)"/>
+  </mask>
+  <clipPath id="globe-clip"><circle cx="168" cy="169" r="111"/></clipPath>
+  <pattern id="map-dots" width="3" height="3" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r=".58" fill="#9A9A9A" opacity=".75"/>
+  </pattern>
+  <filter id="cast" x="-65%" y="-100%" width="230%" height="340%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="8.5"/>
+  </filter>
+  <filter id="contact" x="-55%" y="-125%" width="210%" height="360%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="3.1"/>
+  </filter>
+</defs>
+<rect x="0" y="0" width="336" height="336" rx="0" fill="#1E1E1E" stroke="none" stroke-width="1" id="background"/>
+<g id="illustration" font-family="Inter, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<g mask="url(#periphery)">
+<path d="M38 206H253Q268 206 268 221V255M73 118H278M105 179H246Q257 179 257 166V117M105 179V206L144 250H228Q258 250 258 228M74 118L105 179M162 118V205L101 275" fill="none" stroke="#3E3E3E" stroke-width="1.25" />
+<path d="M39 206Q38 142 74 118M162 50V119" fill="none" stroke="#353535" stroke-width="1" />
+</g>
+<path d="M68 274V252Q68 245 75 237L111 199Q120 189 120 179V163Q120 151 132 151H177Q194 151 203 140L227 117H254" fill="none" stroke="#727272" stroke-width="1.5" />
+<circle cx="38" cy="206" r="5" fill="#242424" stroke="#3E3E3E" stroke-width="1" />
+<circle cx="38" cy="206" r="2" fill="#727272" stroke="none" stroke-width="1" />
+<circle cx="74" cy="118" r="5" fill="#242424" stroke="#3E3E3E" stroke-width="1" />
+<circle cx="74" cy="118" r="2" fill="#727272" stroke="none" stroke-width="1" />
+<circle cx="162" cy="118" r="5" fill="#242424" stroke="#3E3E3E" stroke-width="1" />
+<circle cx="162" cy="118" r="2" fill="#727272" stroke="none" stroke-width="1" />
+<circle cx="105" cy="179" r="5" fill="#242424" stroke="#3E3E3E" stroke-width="1" />
+<circle cx="105" cy="179" r="2" fill="#727272" stroke="none" stroke-width="1" />
+<circle cx="162" cy="206" r="5" fill="#242424" stroke="#3E3E3E" stroke-width="1" />
+<circle cx="162" cy="206" r="2" fill="#727272" stroke="none" stroke-width="1" />
+<circle cx="226" cy="206" r="5" fill="#242424" stroke="#3E3E3E" stroke-width="1" />
+<circle cx="226" cy="206" r="2" fill="#727272" stroke="none" stroke-width="1" />
+<circle cx="226" cy="180" r="5" fill="#242424" stroke="#3E3E3E" stroke-width="1" />
+<circle cx="226" cy="180" r="2" fill="#727272" stroke="none" stroke-width="1" />
+<circle cx="254" cy="117" r="6.5" fill="#242424" stroke="#727272" stroke-width="1" />
+<circle cx="254" cy="117" r="3.5" fill="#F4F4F4" stroke="none" stroke-width="1" />
+<rect x="198" y="73.35" width="110" height="29" rx="14.5" fill="#050505" stroke="none" stroke-width="1" opacity=".74" filter="url(#cast)"/>
+<rect x="199" y="89" width="108" height="12" rx="6" fill="#050505" stroke="none" stroke-width="1" opacity=".76" filter="url(#contact)"/>
+<rect x="196" y="69" width="114" height="29" rx="14.5" fill="url(#active-face)" stroke="url(#active-rim)" stroke-width="1.25" />
+<rect x="197.7" y="70.7" width="110.6" height="25.6" rx="12.8" fill="none" stroke="url(#sheen)" stroke-width="0.95" />
+<rect x="199.6" y="72.6" width="106.8" height="21.8" rx="10.9" fill="none" stroke="#6F6F6F" stroke-width="0.7" opacity=".67"/>
+<text x="253.0" y="87.0" font-size="10" font-weight="600" fill="#EEEEEE" text-anchor="middle" >You’re here</text>
+<circle cx="177" cy="151" r="11" fill="url(#idle-face)" stroke="#3E3E3E" stroke-width="1" />
+<g transform="translate(177 151) scale(0.8461538461538461)">
+<path d="M-6-6 6 6m0-12L-6 6" fill="none" stroke="#9A9A9A" stroke-width="1.45" />
+</g>
+<g transform="translate(260 123)">
+<path d="M0 0l15 5-6 2.5-2.5 6Z" fill="#1E1E1E" stroke="#1E1E1E" stroke-width="3" />
+<path d="M0 0l15 5-6 2.5-2.5 6Z" fill="#1E1E1E" stroke="#EEEEEE" stroke-width="1.2" />
+</g>
+<rect x="64" y="289" width="57" height="20" rx="10.0" fill="#050505" stroke="none" stroke-width="1" opacity=".74" filter="url(#cast)"/>
+<rect x="65" y="296" width="55" height="12" rx="6" fill="#050505" stroke="none" stroke-width="1" opacity=".76" filter="url(#contact)"/>
+<rect x="62" y="285" width="61" height="20" rx="10.0" fill="url(#active-face)" stroke="url(#active-rim)" stroke-width="1.25" />
+<rect x="63.7" y="286.7" width="57.6" height="16.6" rx="8.3" fill="none" stroke="url(#sheen)" stroke-width="0.95" />
+<rect x="65.6" y="288.6" width="53.8" height="12.8" rx="6.4" fill="none" stroke="#6F6F6F" stroke-width="0.7" opacity=".67"/>
+<rect x="72" y="293" width="41" height="3" rx="1.5" fill="#EEEEEE" stroke="none" stroke-width="1" />
+<rect x="163" y="294" width="37" height="2" rx="1.0" fill="#353535" stroke="none" stroke-width="1" />
+<rect x="235" y="294" width="37" height="2" rx="1.0" fill="#353535" stroke="none" stroke-width="1" />
+</g>
+</svg>

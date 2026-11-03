@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="336" viewBox="0 0 336 336" role="img" aria-labelledby="title desc">
+<title id="title">媒体文件分享 · dark</title><desc id="desc">A raised media folder shows an audio waveform and an active share control.</desc>
+<defs>
+  <linearGradient id="frame-edge" x2="0" y2="1">
+    <stop stop-color="#3E3E3E"/><stop offset=".57" stop-color="#3E3E3E" stop-opacity=".73"/>
+    <stop offset="1" stop-color="#353535" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="idle-face" x2=".28" y2="1">
+    <stop stop-color="#292929"/><stop offset="1" stop-color="#242424"/>
+  </linearGradient>
+  <linearGradient id="active-face" x2=".3" y2="1">
+    <stop stop-color="#454545"/><stop offset=".46" stop-color="#292929"/><stop offset="1" stop-color="#282828"/>
+  </linearGradient>
+  <linearGradient id="active-rim" x2=".35" y2="1">
+    <stop stop-color="#BCBCBC"/><stop offset=".58" stop-color="#727272"/><stop offset="1" stop-color="#585858"/>
+  </linearGradient>
+  <linearGradient id="sheen" x2="0" y2="1">
+    <stop stop-color="#C2C2C2" stop-opacity=".57"/><stop offset=".48" stop-color="#C2C2C2" stop-opacity=".19"/>
+    <stop offset="1" stop-color="#C2C2C2" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="halo">
+    <stop stop-color="#B5B5B5" stop-opacity=".115"/><stop offset=".63" stop-color="#B5B5B5" stop-opacity=".04"/>
+    <stop offset="1" stop-color="#B5B5B5" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="area" gradientUnits="userSpaceOnUse" x1="0" y1="130" x2="0" y2="304">
+    <stop stop-color="#727272" stop-opacity=".31"/><stop offset="1" stop-color="#727272" stop-opacity=".025"/>
+  </linearGradient>
+  <linearGradient id="chart-line" gradientUnits="userSpaceOnUse" x1="30" y1="0" x2="310" y2="0">
+    <stop stop-color="#3E3E3E"/><stop offset=".43" stop-color="#9A9A9A"/><stop offset=".72" stop-color="#727272"/>
+    <stop offset="1" stop-color="#3E3E3E"/>
+  </linearGradient>
+  <linearGradient id="skin" x2=".85" y2="1">
+    <stop stop-color="#DFDFDF"/><stop offset=".68" stop-color="#DFDFDF"/><stop offset="1" stop-color="#8E8E8E"/>
+  </linearGradient>
+  <linearGradient id="cloth" x2=".9" y2="1">
+    <stop stop-color="#8E8E8E"/><stop offset=".45" stop-color="#444444"/><stop offset="1" stop-color="#282828"/>
+  </linearGradient>
+  <radialGradient id="periphery-fade" gradientUnits="userSpaceOnUse" cx="168" cy="164" r="185">
+    <stop offset=".39" stop-color="#FFFFFF"/><stop offset=".77" stop-color="#FFFFFF" stop-opacity=".53"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="lower-fade" gradientUnits="userSpaceOnUse" x1="0" y1="194" x2="0" y2="327">
+    <stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <mask id="periphery" maskUnits="userSpaceOnUse" x="0" y="0" width="336" height="336">
+    <rect width="336" height="336" fill="url(#periphery-fade)"/>
+  </mask>
+  <mask id="lower" maskUnits="userSpaceOnUse" x="0" y="0" width="336" height="336">
+    <rect width="336" height="336" fill="url(#lower-fade)"/>
+  </mask>
+  <clipPath id="globe-clip"><circle cx="168" cy="169" r="111"/></clipPath>
+  <pattern id="map-dots" width="3" height="3" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r=".58" fill="#9A9A9A" opacity=".75"/>
+  </pattern>
+  <filter id="cast" x="-65%" y="-100%" width="230%" height="340%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="8.5"/>
+  </filter>
+  <filter id="contact" x="-55%" y="-125%" width="210%" height="360%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="3.1"/>
+  </filter>
+</defs>
+<rect x="0" y="0" width="336" height="336" rx="0" fill="#1E1E1E" stroke="none" stroke-width="1" id="background"/>
+<g id="illustration" font-family="Inter, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<rect x="23" y="23" width="290" height="290" rx="16" fill="none" stroke="url(#frame-edge)" stroke-width="1" />
+<g mask="url(#periphery)">
+<path d="M24.00 23V312" fill="none" stroke="#353535" stroke-width="0.65" />
+<path d="M120.33 23V312" fill="none" stroke="#353535" stroke-width="0.65" />
+<path d="M216.67 23V312" fill="none" stroke="#353535" stroke-width="0.65" />
+<path d="M313.00 23V312" fill="none" stroke="#353535" stroke-width="0.65" />
+<path d="M24 23.00H313" fill="none" stroke="#353535" stroke-width="0.65" />
+<path d="M24 119.33H313" fill="none" stroke="#353535" stroke-width="0.65" />
+<path d="M24 215.67H313" fill="none" stroke="#353535" stroke-width="0.65" />
+<path d="M24 312.00H313" fill="none" stroke="#353535" stroke-width="0.65" />
+</g>
+<path d="M87 114Q87 103 99 103H142Q151 103 156 110L161 116Q165 120 174 120H236Q248 120 248 132V213Q248 225 236 225H99Q87 225 87 213Z" fill="#050505" stroke="none" stroke-width="1" transform="translate(0 9)" opacity=".74" filter="url(#cast)"/>
+<path d="M87 114Q87 103 99 103H142Q151 103 156 110L161 116Q165 120 174 120H236Q248 120 248 132V213Q248 225 236 225H99Q87 225 87 213Z" fill="#050505" stroke="none" stroke-width="1" transform="translate(0 3)" opacity=".76" filter="url(#contact)"/>
+<path d="M87 114Q87 103 99 103H142Q151 103 156 110L161 116Q165 120 174 120H236Q248 120 248 132V213Q248 225 236 225H99Q87 225 87 213Z" fill="url(#active-face)" stroke="url(#active-rim)" stroke-width="1.3" />
+<path d="M91 119v-5q0-7 8-7h42q7 0 12 6l6 6q5 5 14 5h62q9 0 9 9" fill="none" stroke="url(#sheen)" stroke-width="1.05" />
+<rect x="95" y="138" width="98" height="79" rx="8" fill="url(#idle-face)" stroke="#3E3E3E" stroke-width="1" />
+<rect x="96.4" y="139.4" width="95.2" height="76.2" rx="6.6" fill="none" stroke="url(#sheen)" stroke-width="0.7" />
+<path d="M107.00 175.10v1.79" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.45"/>
+<path d="M109.77 174.44v3.13" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.52"/>
+<path d="M112.54 174.48v3.05" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.58"/>
+<path d="M115.31 173.52v4.96" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.65"/>
+<path d="M118.08 172.94v6.11" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.71"/>
+<path d="M120.85 174.50v3.00" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.76"/>
+<path d="M123.62 174.50v3.00" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.81"/>
+<path d="M126.38 170.29v11.43" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.86"/>
+<path d="M129.15 172.81v6.38" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.90"/>
+<path d="M131.92 172.69v6.62" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.94"/>
+<path d="M134.69 167.77v16.46" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.96"/>
+<path d="M137.46 170.81v10.38" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.98"/>
+<path d="M140.23 168.25v15.50" fill="none" stroke="#727272" stroke-width="1.45" opacity="1.00"/>
+<path d="M143.00 170.59v10.82" fill="none" stroke="#727272" stroke-width="1.45" opacity="1.00"/>
+<path d="M145.77 169.56v12.89" fill="none" stroke="#727272" stroke-width="1.45" opacity="1.00"/>
+<path d="M148.54 172.87v6.25" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.98"/>
+<path d="M151.31 170.00v11.99" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.96"/>
+<path d="M154.08 169.00v14.01" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.94"/>
+<path d="M156.85 171.39v9.23" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.90"/>
+<path d="M159.62 170.76v10.49" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.86"/>
+<path d="M162.38 171.65v8.70" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.81"/>
+<path d="M165.15 174.51v2.99" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.76"/>
+<path d="M167.92 172.52v6.96" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.71"/>
+<path d="M170.69 173.55v4.90" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.65"/>
+<path d="M173.46 174.63v2.75" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.58"/>
+<path d="M176.23 175.35v1.30" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.52"/>
+<path d="M179.00 174.12v3.76" fill="none" stroke="#727272" stroke-width="1.45" opacity="0.45"/>
+<rect x="199" y="138" width="41" height="37" rx="8" fill="url(#idle-face)" stroke="#3E3E3E" stroke-width="1" />
+<rect x="200.4" y="139.4" width="38.2" height="34.2" rx="6.6" fill="none" stroke="url(#sheen)" stroke-width="0.7" />
+<rect x="201" y="185.55" width="37" height="37" rx="8" fill="#050505" stroke="none" stroke-width="1" opacity=".74" filter="url(#cast)"/>
+<rect x="202" y="208" width="35" height="12" rx="6" fill="#050505" stroke="none" stroke-width="1" opacity=".76" filter="url(#contact)"/>
+<rect x="199" y="180" width="41" height="37" rx="8" fill="url(#active-face)" stroke="url(#active-rim)" stroke-width="1.25" />
+<rect x="200.7" y="181.7" width="37.6" height="33.6" rx="6.3" fill="none" stroke="url(#sheen)" stroke-width="0.95" />
+<rect x="202.6" y="183.6" width="33.8" height="29.8" rx="4.4" fill="none" stroke="#6F6F6F" stroke-width="0.7" opacity=".67"/>
+<g transform="translate(220 199) scale(0.76)">
+<path d="M-7 6v-3c0-4 3-5 6-5v-4l8 7-8 6v-4c-2 0-4 0-6 3Z" fill="none" stroke="#EEEEEE" stroke-width="1.45" />
+</g>
+<g transform="translate(233 212)">
+<path d="M0 0l15 5-6 2.5-2.5 6Z" fill="#1E1E1E" stroke="#1E1E1E" stroke-width="3" />
+<path d="M0 0l15 5-6 2.5-2.5 6Z" fill="#1E1E1E" stroke="#EEEEEE" stroke-width="1.2" />
+</g>
+<rect x="250" y="230" width="45" height="18" rx="9.0" fill="url(#idle-face)" stroke="#3E3E3E" stroke-width="1" />
+<rect x="251.4" y="231.4" width="42.2" height="15.2" rx="7.6" fill="none" stroke="url(#sheen)" stroke-width="0.7" />
+<text x="272.5" y="242.5" font-size="10" font-weight="600" fill="#9A9A9A" text-anchor="middle" >Artur</text>
+</g>
+</svg>

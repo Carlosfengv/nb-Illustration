@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="336" viewBox="0 0 336 336" role="img" aria-labelledby="title desc">
+<title id="title">开关选中 · light</title><desc id="desc">The middle toggle is selected and its thumb moves to the right.</desc>
+<defs>
+  <linearGradient id="frame-edge" x2="0" y2="1">
+    <stop stop-color="#CCCCCC"/><stop offset=".57" stop-color="#CCCCCC" stop-opacity=".73"/>
+    <stop offset="1" stop-color="#E0E0E0" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="idle-face" x2=".28" y2="1">
+    <stop stop-color="#F1F1F1"/><stop offset="1" stop-color="#F8F8F8"/>
+  </linearGradient>
+  <linearGradient id="active-face" x2=".3" y2="1">
+    <stop stop-color="#FFFFFF"/><stop offset=".46" stop-color="#F1F1F1"/><stop offset="1" stop-color="#EEEEEE"/>
+  </linearGradient>
+  <linearGradient id="active-rim" x2=".35" y2="1">
+    <stop stop-color="#404040"/><stop offset=".58" stop-color="#858585"/><stop offset="1" stop-color="#8B8B8B"/>
+  </linearGradient>
+  <linearGradient id="sheen" x2="0" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity=".57"/><stop offset=".48" stop-color="#FFFFFF" stop-opacity=".19"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="halo">
+    <stop stop-color="#737373" stop-opacity=".115"/><stop offset=".63" stop-color="#737373" stop-opacity=".04"/>
+    <stop offset="1" stop-color="#737373" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="area" gradientUnits="userSpaceOnUse" x1="0" y1="130" x2="0" y2="304">
+    <stop stop-color="#858585" stop-opacity=".31"/><stop offset="1" stop-color="#858585" stop-opacity=".025"/>
+  </linearGradient>
+  <linearGradient id="chart-line" gradientUnits="userSpaceOnUse" x1="30" y1="0" x2="310" y2="0">
+    <stop stop-color="#CCCCCC"/><stop offset=".43" stop-color="#666666"/><stop offset=".72" stop-color="#858585"/>
+    <stop offset="1" stop-color="#CCCCCC"/>
+  </linearGradient>
+  <linearGradient id="skin" x2=".85" y2="1">
+    <stop stop-color="#F5F5F5"/><stop offset=".68" stop-color="#F5F5F5"/><stop offset="1" stop-color="#9B9B9B"/>
+  </linearGradient>
+  <linearGradient id="cloth" x2=".9" y2="1">
+    <stop stop-color="#9B9B9B"/><stop offset=".45" stop-color="#4D4D4D"/><stop offset="1" stop-color="#EEEEEE"/>
+  </linearGradient>
+  <radialGradient id="periphery-fade" gradientUnits="userSpaceOnUse" cx="168" cy="164" r="185">
+    <stop offset=".39" stop-color="#FFFFFF"/><stop offset=".77" stop-color="#FFFFFF" stop-opacity=".53"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="lower-fade" gradientUnits="userSpaceOnUse" x1="0" y1="194" x2="0" y2="327">
+    <stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <mask id="periphery" maskUnits="userSpaceOnUse" x="0" y="0" width="336" height="336">
+    <rect width="336" height="336" fill="url(#periphery-fade)"/>
+  </mask>
+  <mask id="lower" maskUnits="userSpaceOnUse" x="0" y="0" width="336" height="336">
+    <rect width="336" height="336" fill="url(#lower-fade)"/>
+  </mask>
+  <clipPath id="globe-clip"><circle cx="168" cy="169" r="111"/></clipPath>
+  <pattern id="map-dots" width="3" height="3" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r=".58" fill="#666666" opacity=".75"/>
+  </pattern>
+  <filter id="cast" x="-65%" y="-100%" width="230%" height="340%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="8.5"/>
+  </filter>
+  <filter id="contact" x="-55%" y="-125%" width="210%" height="360%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="3.1"/>
+  </filter>
+</defs>
+<rect x="0" y="0" width="336" height="336" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1" id="background"/>
+<g id="illustration" font-family="Inter, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<g mask="url(#periphery)">
+<circle cx="168" cy="168" r="147" fill="none" stroke="#E0E0E0" stroke-width="1" />
+<circle cx="168" cy="168" r="93" fill="none" stroke="#CCCCCC" stroke-width="1" />
+<path d="M26 110h13q13 0 18 16l10 26q6 16 21 16M26 224h13q13 0 18-16l10-25q6-15 21-15M310 110h-13q-13 0-18 16l-10 26q-6 16-21 16M310 224h-13q-13 0-18-16l-10-25q-6-15-21-15" fill="none" stroke="#E0E0E0" stroke-width="1" />
+</g>
+<rect x="107" y="78" width="122" height="48" rx="14" fill="url(#idle-face)" stroke="#CCCCCC" stroke-width="1" />
+<rect x="108.4" y="79.4" width="119.2" height="45.2" rx="12.6" fill="none" stroke="url(#sheen)" stroke-width="0.7" />
+<rect x="108" y="79" width="49" height="46" rx="13" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="109" y="151.2" width="118" height="48" rx="14" fill="#242424" stroke="none" stroke-width="1" opacity=".23" filter="url(#cast)"/>
+<rect x="110" y="183" width="116" height="12" rx="6" fill="#242424" stroke="none" stroke-width="1" opacity=".27" filter="url(#contact)"/>
+<rect x="107" y="144" width="122" height="48" rx="14" fill="url(#active-face)" stroke="url(#active-rim)" stroke-width="1.25" />
+<rect x="108.7" y="145.7" width="118.6" height="44.6" rx="12.3" fill="none" stroke="url(#sheen)" stroke-width="0.95" />
+<rect x="110.6" y="147.6" width="114.8" height="40.8" rx="10.4" fill="none" stroke="#CCCCCC" stroke-width="0.7" opacity=".67"/>
+<rect x="181" y="151.9" width="45" height="46" rx="13" fill="#242424" stroke="none" stroke-width="1" opacity=".23" filter="url(#cast)"/>
+<rect x="182" y="182" width="43" height="12" rx="6" fill="#242424" stroke="none" stroke-width="1" opacity=".27" filter="url(#contact)"/>
+<rect x="179" y="145" width="49" height="46" rx="13" fill="url(#active-face)" stroke="url(#active-rim)" stroke-width="1.25" />
+<rect x="180.7" y="146.7" width="45.6" height="42.6" rx="11.3" fill="none" stroke="url(#sheen)" stroke-width="0.95" />
+<rect x="182.6" y="148.6" width="41.8" height="38.8" rx="9.4" fill="none" stroke="#CCCCCC" stroke-width="0.7" opacity=".67"/>
+<g transform="translate(204 168) scale(0.7)">
+<path d="M-6 0H6M0-6V6" fill="none" stroke="#292929" stroke-width="1.45" />
+</g>
+<rect x="107" y="210" width="122" height="48" rx="14" fill="url(#idle-face)" stroke="#CCCCCC" stroke-width="1" />
+<rect x="108.4" y="211.4" width="119.2" height="45.2" rx="12.6" fill="none" stroke="url(#sheen)" stroke-width="0.7" />
+<rect x="108" y="211" width="49" height="46" rx="13" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+</g>
+</svg>

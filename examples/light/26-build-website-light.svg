@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="336" viewBox="0 0 336 336" role="img" aria-labelledby="title desc">
+<title id="title">页面组件搭建 · light</title><desc id="desc">A highlighted add-component control sits in a page-builder mosaic.</desc>
+<defs>
+  <linearGradient id="frame-edge" x2="0" y2="1">
+    <stop stop-color="#CCCCCC"/><stop offset=".57" stop-color="#CCCCCC" stop-opacity=".73"/>
+    <stop offset="1" stop-color="#E0E0E0" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="idle-face" x2=".28" y2="1">
+    <stop stop-color="#F1F1F1"/><stop offset="1" stop-color="#F8F8F8"/>
+  </linearGradient>
+  <linearGradient id="active-face" x2=".3" y2="1">
+    <stop stop-color="#FFFFFF"/><stop offset=".46" stop-color="#F1F1F1"/><stop offset="1" stop-color="#EEEEEE"/>
+  </linearGradient>
+  <linearGradient id="active-rim" x2=".35" y2="1">
+    <stop stop-color="#404040"/><stop offset=".58" stop-color="#858585"/><stop offset="1" stop-color="#8B8B8B"/>
+  </linearGradient>
+  <linearGradient id="sheen" x2="0" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity=".57"/><stop offset=".48" stop-color="#FFFFFF" stop-opacity=".19"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="halo">
+    <stop stop-color="#737373" stop-opacity=".115"/><stop offset=".63" stop-color="#737373" stop-opacity=".04"/>
+    <stop offset="1" stop-color="#737373" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="area" gradientUnits="userSpaceOnUse" x1="0" y1="130" x2="0" y2="304">
+    <stop stop-color="#858585" stop-opacity=".31"/><stop offset="1" stop-color="#858585" stop-opacity=".025"/>
+  </linearGradient>
+  <linearGradient id="chart-line" gradientUnits="userSpaceOnUse" x1="30" y1="0" x2="310" y2="0">
+    <stop stop-color="#CCCCCC"/><stop offset=".43" stop-color="#666666"/><stop offset=".72" stop-color="#858585"/>
+    <stop offset="1" stop-color="#CCCCCC"/>
+  </linearGradient>
+  <linearGradient id="skin" x2=".85" y2="1">
+    <stop stop-color="#F5F5F5"/><stop offset=".68" stop-color="#F5F5F5"/><stop offset="1" stop-color="#9B9B9B"/>
+  </linearGradient>
+  <linearGradient id="cloth" x2=".9" y2="1">
+    <stop stop-color="#9B9B9B"/><stop offset=".45" stop-color="#4D4D4D"/><stop offset="1" stop-color="#EEEEEE"/>
+  </linearGradient>
+  <radialGradient id="periphery-fade" gradientUnits="userSpaceOnUse" cx="168" cy="164" r="185">
+    <stop offset=".39" stop-color="#FFFFFF"/><stop offset=".77" stop-color="#FFFFFF" stop-opacity=".53"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="lower-fade" gradientUnits="userSpaceOnUse" x1="0" y1="194" x2="0" y2="327">
+    <stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <mask id="periphery" maskUnits="userSpaceOnUse" x="0" y="0" width="336" height="336">
+    <rect width="336" height="336" fill="url(#periphery-fade)"/>
+  </mask>
+  <mask id="lower" maskUnits="userSpaceOnUse" x="0" y="0" width="336" height="336">
+    <rect width="336" height="336" fill="url(#lower-fade)"/>
+  </mask>
+  <clipPath id="globe-clip"><circle cx="168" cy="169" r="111"/></clipPath>
+  <pattern id="map-dots" width="3" height="3" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r=".58" fill="#666666" opacity=".75"/>
+  </pattern>
+  <filter id="cast" x="-65%" y="-100%" width="230%" height="340%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="8.5"/>
+  </filter>
+  <filter id="contact" x="-55%" y="-125%" width="210%" height="360%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="3.1"/>
+  </filter>
+</defs>
+<rect x="0" y="0" width="336" height="336" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1" id="background"/>
+<g id="illustration" font-family="Inter, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<rect x="23" y="23" width="290" height="290" rx="16" fill="none" stroke="url(#frame-edge)" stroke-width="1" />
+<g mask="url(#periphery)">
+<rect x="43" y="68" width="221" height="51" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="270" y="68" width="44" height="51" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="43" y="124" width="108" height="108" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="156" y="179" width="51" height="53" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="213" y="124" width="51" height="51" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="213" y="179" width="51" height="53" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="270" y="124" width="44" height="108" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="43" y="238" width="165" height="61" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="213" y="238" width="51" height="61" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="270" y="238" width="44" height="61" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="71" y="166" width="37" height="2.5" rx="1.25" fill="#858585" stroke="none" stroke-width="1" />
+<rect x="71" y="175" width="53" height="2.5" rx="1.25" fill="#CCCCCC" stroke="none" stroke-width="1" />
+<rect x="71" y="184" width="46" height="2.5" rx="1.25" fill="#CCCCCC" stroke="none" stroke-width="1" />
+</g>
+<rect x="60" y="83" width="58" height="20" rx="10.0" fill="url(#idle-face)" stroke="#CCCCCC" stroke-width="1" />
+<rect x="61.4" y="84.4" width="55.2" height="17.2" rx="8.6" fill="none" stroke="url(#sheen)" stroke-width="0.7" />
+<rect x="70" y="91" width="38" height="3" rx="1.5" fill="#666666" stroke="none" stroke-width="1" />
+<rect x="128" y="91" width="39" height="2" rx="1.0" fill="#CCCCCC" stroke="none" stroke-width="1" />
+<rect x="185" y="91" width="40" height="2" rx="1.0" fill="#CCCCCC" stroke="none" stroke-width="1" />
+<rect x="158" y="131.65" width="47" height="51" rx="13" fill="#242424" stroke="none" stroke-width="1" opacity=".23" filter="url(#cast)"/>
+<rect x="159" y="166" width="45" height="12" rx="6" fill="#242424" stroke="none" stroke-width="1" opacity=".27" filter="url(#contact)"/>
+<rect x="156" y="124" width="51" height="51" rx="13" fill="url(#active-face)" stroke="url(#active-rim)" stroke-width="1.25" />
+<rect x="157.7" y="125.7" width="47.6" height="47.6" rx="11.3" fill="none" stroke="url(#sheen)" stroke-width="0.95" />
+<rect x="159.6" y="127.6" width="43.8" height="43.8" rx="9.4" fill="none" stroke="#CCCCCC" stroke-width="0.7" opacity=".67"/>
+<g transform="translate(181.5 149.5) scale(0.9)">
+<path d="M-6 0H6M0-6V6" fill="none" stroke="#292929" stroke-width="1.45" />
+</g>
+<g transform="translate(193 163)">
+<path d="M0 0l15 5-6 2.5-2.5 6Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="3" />
+<path d="M0 0l15 5-6 2.5-2.5 6Z" fill="#FFFFFF" stroke="#292929" stroke-width="1.2" />
+</g>
+<circle cx="239" cy="149.5" r="6" fill="#F1F1F1" stroke="#CCCCCC" stroke-width="1" />
+<circle cx="181" cy="204" r="6" fill="#F1F1F1" stroke="#CCCCCC" stroke-width="1" />
+<circle cx="239" cy="204" r="6" fill="#F1F1F1" stroke="#CCCCCC" stroke-width="1" />
+</g>
+</svg>

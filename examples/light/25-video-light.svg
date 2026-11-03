@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="336" viewBox="0 0 336 336" role="img" aria-labelledby="title desc">
+<title id="title">视频播放 · light</title><desc id="desc">A 4K video tile floats forward with a central play button.</desc>
+<defs>
+  <linearGradient id="frame-edge" x2="0" y2="1">
+    <stop stop-color="#CCCCCC"/><stop offset=".57" stop-color="#CCCCCC" stop-opacity=".73"/>
+    <stop offset="1" stop-color="#E0E0E0" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="idle-face" x2=".28" y2="1">
+    <stop stop-color="#F1F1F1"/><stop offset="1" stop-color="#F8F8F8"/>
+  </linearGradient>
+  <linearGradient id="active-face" x2=".3" y2="1">
+    <stop stop-color="#FFFFFF"/><stop offset=".46" stop-color="#F1F1F1"/><stop offset="1" stop-color="#EEEEEE"/>
+  </linearGradient>
+  <linearGradient id="active-rim" x2=".35" y2="1">
+    <stop stop-color="#404040"/><stop offset=".58" stop-color="#858585"/><stop offset="1" stop-color="#8B8B8B"/>
+  </linearGradient>
+  <linearGradient id="sheen" x2="0" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity=".57"/><stop offset=".48" stop-color="#FFFFFF" stop-opacity=".19"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="halo">
+    <stop stop-color="#737373" stop-opacity=".115"/><stop offset=".63" stop-color="#737373" stop-opacity=".04"/>
+    <stop offset="1" stop-color="#737373" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="area" gradientUnits="userSpaceOnUse" x1="0" y1="130" x2="0" y2="304">
+    <stop stop-color="#858585" stop-opacity=".31"/><stop offset="1" stop-color="#858585" stop-opacity=".025"/>
+  </linearGradient>
+  <linearGradient id="chart-line" gradientUnits="userSpaceOnUse" x1="30" y1="0" x2="310" y2="0">
+    <stop stop-color="#CCCCCC"/><stop offset=".43" stop-color="#666666"/><stop offset=".72" stop-color="#858585"/>
+    <stop offset="1" stop-color="#CCCCCC"/>
+  </linearGradient>
+  <linearGradient id="skin" x2=".85" y2="1">
+    <stop stop-color="#F5F5F5"/><stop offset=".68" stop-color="#F5F5F5"/><stop offset="1" stop-color="#9B9B9B"/>
+  </linearGradient>
+  <linearGradient id="cloth" x2=".9" y2="1">
+    <stop stop-color="#9B9B9B"/><stop offset=".45" stop-color="#4D4D4D"/><stop offset="1" stop-color="#EEEEEE"/>
+  </linearGradient>
+  <radialGradient id="periphery-fade" gradientUnits="userSpaceOnUse" cx="168" cy="164" r="185">
+    <stop offset=".39" stop-color="#FFFFFF"/><stop offset=".77" stop-color="#FFFFFF" stop-opacity=".53"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="lower-fade" gradientUnits="userSpaceOnUse" x1="0" y1="194" x2="0" y2="327">
+    <stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <mask id="periphery" maskUnits="userSpaceOnUse" x="0" y="0" width="336" height="336">
+    <rect width="336" height="336" fill="url(#periphery-fade)"/>
+  </mask>
+  <mask id="lower" maskUnits="userSpaceOnUse" x="0" y="0" width="336" height="336">
+    <rect width="336" height="336" fill="url(#lower-fade)"/>
+  </mask>
+  <clipPath id="globe-clip"><circle cx="168" cy="169" r="111"/></clipPath>
+  <pattern id="map-dots" width="3" height="3" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r=".58" fill="#666666" opacity=".75"/>
+  </pattern>
+  <filter id="cast" x="-65%" y="-100%" width="230%" height="340%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="8.5"/>
+  </filter>
+  <filter id="contact" x="-55%" y="-125%" width="210%" height="360%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="3.1"/>
+  </filter>
+</defs>
+<rect x="0" y="0" width="336" height="336" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1" id="background"/>
+<g id="illustration" font-family="Inter, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<rect x="23" y="23" width="290" height="290" rx="16" fill="none" stroke="url(#frame-edge)" stroke-width="1" />
+<circle cx="38" cy="38" r="1.8" fill="#CCCCCC" stroke="none" stroke-width="1" />
+<circle cx="46" cy="38" r="1.8" fill="#CCCCCC" stroke="none" stroke-width="1" />
+<circle cx="54" cy="38" r="1.8" fill="#CCCCCC" stroke="none" stroke-width="1" />
+<g mask="url(#periphery)">
+<rect x="23" y="23" width="112" height="89" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="140" y="23" width="112" height="89" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="258" y="23" width="55" height="89" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="23" y="117" width="66" height="106" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="249" y="117" width="66" height="106" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="23" y="228" width="74" height="81" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="103" y="228" width="102" height="81" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+<rect x="212" y="228" width="101" height="81" rx="12" fill="#F8F8F8" stroke="#E0E0E0" stroke-width="0.85" />
+</g>
+<ellipse cx="168" cy="168" rx="100" ry="84" fill="url(#halo)" stroke="none" />
+<rect x="93" y="123" width="150" height="109" rx="13" fill="#242424" stroke="none" stroke-width="1" opacity=".23" filter="url(#cast)"/>
+<rect x="94" y="213" width="148" height="12" rx="6" fill="#242424" stroke="none" stroke-width="1" opacity=".27" filter="url(#contact)"/>
+<rect x="91" y="113" width="154" height="109" rx="13" fill="url(#active-face)" stroke="url(#active-rim)" stroke-width="1.25" />
+<rect x="92.7" y="114.7" width="150.6" height="105.6" rx="11.3" fill="none" stroke="url(#sheen)" stroke-width="0.95" />
+<rect x="94.6" y="116.6" width="146.8" height="101.8" rx="9.4" fill="none" stroke="#CCCCCC" stroke-width="0.7" opacity=".67"/>
+<rect x="146" y="150.2" width="44" height="48" rx="24" fill="#242424" stroke="none" stroke-width="1" opacity=".23" filter="url(#cast)"/>
+<rect x="147" y="182" width="42" height="12" rx="6" fill="#242424" stroke="none" stroke-width="1" opacity=".27" filter="url(#contact)"/>
+<circle cx="168" cy="167" r="24" fill="url(#active-face)" stroke="url(#active-rim)" stroke-width="1.25" />
+<circle cx="168" cy="167" r="21" fill="none" stroke="#CCCCCC" stroke-width="0.75" />
+<g transform="translate(168 167) scale(1.35)">
+<path d="M-3-6L6 0l-9 6Z" fill="#292929" stroke="#292929" stroke-width="1.45" />
+</g>
+<rect x="207" y="122" width="27" height="18" rx="9.0" fill="url(#idle-face)" stroke="#CCCCCC" stroke-width="1" />
+<rect x="208.4" y="123.4" width="24.2" height="15.2" rx="7.6" fill="none" stroke="url(#sheen)" stroke-width="0.7" />
+<text x="220.5" y="134.5" font-size="10" font-weight="600" fill="#666666" text-anchor="middle" >4K</text>
+<g mask="url(#periphery)">
+<g transform="translate(50 167) scale(0.63)">
+<path d="M-3-6L6 0l-9 6Z" fill="none" stroke="#CCCCCC" stroke-width="1.45" />
+</g>
+<g transform="translate(287 167) scale(0.63)">
+<path d="M-3-6L6 0l-9 6Z" fill="none" stroke="#CCCCCC" stroke-width="1.45" />
+</g>
+</g>
+</g>
+</svg>
