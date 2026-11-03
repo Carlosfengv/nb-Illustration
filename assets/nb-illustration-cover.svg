@@ -1,0 +1,327 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="663" viewBox="0 0 1440 663" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">NB Illustration — Model routing</title>
+  <desc id="desc">Side-by-side dark and light editions of the same product illustration. Text, vision, and audio converge on a router, and a selected model lifts forward with a bright rim and layered shadow.</desc>
+  <defs>
+    <linearGradient id="cover-bg" x2="1" y2=".8"><stop stop-color="#202020"/><stop offset="1" stop-color="#111111"/></linearGradient>
+    <radialGradient id="cover-halo"><stop stop-color="#565656" stop-opacity=".25"/><stop offset="1" stop-color="#565656" stop-opacity="0"/></radialGradient>
+    <clipPath id="cover-clip"><rect width="1440" height="663" rx="23"/></clipPath>
+    <radialGradient id="fade-gradient" gradientUnits="userSpaceOnUse" cx="345" cy="240" r="350" gradientTransform="translate(0 68) scale(1 .72)">
+      <stop offset=".45" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="scene-fade" maskUnits="userSpaceOnUse" x="0" y="0" width="693" height="484">
+      <rect width="693" height="484" fill="url(#fade-gradient)"/>
+    </mask>
+    <filter id="cast-shadow" x="-65%" y="-70%" width="230%" height="250%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="contact-shadow" x="-50%" y="-100%" width="200%" height="300%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+
+    <clipPath id="dark-clip"><rect width="693" height="484" rx="18"/></clipPath>
+    <radialGradient id="dark-halo">
+      <stop stop-color="#A0A0A0" stop-opacity=".11"/><stop offset=".67" stop-color="#A0A0A0" stop-opacity=".028"/>
+      <stop offset="1" stop-color="#A0A0A0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dark-dot-grid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".75" fill="#414141" opacity=".7"/>
+    </pattern>
+    <linearGradient id="dark-chip" x2=".3" y2="1">
+      <stop stop-color="#333333"/><stop offset="1" stop-color="#242424"/>
+    </linearGradient>
+    <linearGradient id="dark-lift" x2=".28" y2="1">
+      <stop stop-color="#494949"/><stop offset=".55" stop-color="#333333"/><stop offset="1" stop-color="#282828"/>
+    </linearGradient>
+    <linearGradient id="dark-rim" x2=".34" y2="1">
+      <stop stop-color="#D0D0D0"/><stop offset=".49" stop-color="#B2B2B2"/><stop offset="1" stop-color="#666666"/>
+    </linearGradient>
+    <linearGradient id="dark-reflection" x2="0" y2="1">
+      <stop stop-color="#A6A6A6" stop-opacity=".75"/><stop offset="1" stop-color="#A6A6A6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dark-live-path" gradientUnits="userSpaceOnUse" x1="396" y1="0" x2="505" y2="0">
+      <stop stop-color="#727272"/><stop offset=".7" stop-color="#B2B2B2"/><stop offset="1" stop-color="#D0D0D0"/>
+    </linearGradient>
+    <clipPath id="light-clip"><rect width="693" height="484" rx="18"/></clipPath>
+    <radialGradient id="light-halo">
+      <stop stop-color="#4E4E4E" stop-opacity=".11"/><stop offset=".67" stop-color="#4E4E4E" stop-opacity=".028"/>
+      <stop offset="1" stop-color="#4E4E4E" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="light-dot-grid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".75" fill="#D1D1D1" opacity=".7"/>
+    </pattern>
+    <linearGradient id="light-chip" x2=".3" y2="1">
+      <stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#F1F1F1"/>
+    </linearGradient>
+    <linearGradient id="light-lift" x2=".28" y2="1">
+      <stop stop-color="#FFFFFF"/><stop offset=".55" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EDEDED"/>
+    </linearGradient>
+    <linearGradient id="light-rim" x2=".34" y2="1">
+      <stop stop-color="#353535"/><stop offset=".49" stop-color="#464646"/><stop offset="1" stop-color="#747474"/>
+    </linearGradient>
+    <linearGradient id="light-reflection" x2="0" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity=".75"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="light-live-path" gradientUnits="userSpaceOnUse" x1="396" y1="0" x2="505" y2="0">
+      <stop stop-color="#A0A0A0"/><stop offset=".7" stop-color="#464646"/><stop offset="1" stop-color="#353535"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#cover-clip)" font-family="Inter, Arial, sans-serif" stroke-linejoin="round">
+    <rect width="1440" height="663" fill="url(#cover-bg)"/>
+    <ellipse cx="322" cy="40" rx="520" ry="246" fill="url(#cover-halo)"/>
+    <g id="cover-heading">
+      <rect x="45" y="39" width="32" height="28" rx="7" fill="#ECECEC"/>
+      <text x="61" y="58.5" text-anchor="middle" font-size="13" font-weight="750" fill="#1E1E1E">NB</text>
+      <text x="91" y="58" fill="#B8B8B8" font-family="Menlo, Consolas, monospace" font-size="12" letter-spacing="2.2">ILLUSTRATION SKILL</text>
+      <text x="42" y="123" fill="#F3F3F3" font-size="62" font-weight="650" letter-spacing="-2.5">Model routing</text>
+      <g transform="translate(1197 83)">
+        <rect width="199" height="39" rx="19.5" fill="#252525" stroke="#4A4A4A"/>
+        <path d="M20 15l-5 4.5 5 4.5m12-9 5 4.5-5 4.5m-4-10-4 11" stroke="#AFAFAF" stroke-width="1.2" stroke-linecap="round"/>
+        <text x="53" y="24" fill="#DFDFDF" font-family="Menlo, Consolas, monospace" font-size="12" letter-spacing="1.45">EDITABLE SVG</text>
+      </g>
+    </g>
+
+  <g id="dark-mode" transform="translate(18 161)" clip-path="url(#dark-clip)">
+    <rect width="693" height="484" fill="#1E1E1E"/>
+    <g id="dark-underlay" mask="url(#scene-fade)">
+      <rect x="35" y="78" width="623" height="344" fill="url(#dark-dot-grid)"/>
+      <g fill="#292929" fill-opacity=".39" stroke="#363636" stroke-opacity=".62" stroke-width=".85">
+          <rect x="42" y="94" width="144" height="86" rx="16"/>
+          <rect x="199" y="94" width="74" height="86" rx="16"/>
+          <rect x="286" y="94" width="145" height="86" rx="16"/>
+          <rect x="444" y="94" width="71" height="86" rx="16"/>
+          <rect x="528" y="94" width="121" height="86" rx="16"/>
+          <rect x="42" y="193" width="117" height="104" rx="16"/>
+          <rect x="172" y="193" width="100" height="104" rx="16"/>
+          <rect x="285" y="193" width="145" height="104" rx="16"/>
+          <rect x="443" y="193" width="96" height="104" rx="16"/>
+          <rect x="552" y="193" width="97" height="104" rx="16"/>
+          <rect x="42" y="310" width="147" height="82" rx="16"/>
+          <rect x="202" y="310" width="98" height="82" rx="16"/>
+          <rect x="313" y="310" width="117" height="82" rx="16"/>
+          <rect x="443" y="310" width="206" height="82" rx="16"/>
+      </g>
+      <path d="M35 241H658M348 81V420" stroke="#414141" opacity=".42" stroke-dasharray="3 6"/>
+      <circle cx="348" cy="241" r="122" stroke="#414141" opacity=".49"/>
+      <circle cx="348" cy="241" r="149" stroke="#414141" opacity=".34" stroke-dasharray="2 7"/>
+      <path d="M57 96v15m-7-7h14m579-8v15m-7-7h14M57 376v15m-7-7h14m579-8v15m-7-7h14" stroke="#727272" opacity=".45"/>
+    </g>
+    <ellipse cx="554" cy="242" rx="155" ry="156" fill="url(#dark-halo)"/>
+    <g id="dark-theme-label" font-family="Menlo, Consolas, monospace" font-size="12" letter-spacing="1.35">
+      <rect x="33" y="28" width="125" height="30" rx="15" fill="url(#dark-chip)" stroke="#363636"/>
+      <circle cx="49" cy="43" r="3.25" fill="#F1F1F1"/>
+      <text x="63" y="47" fill="#EEEEEE">01 / DARK</text>
+      <text x="657" y="47" text-anchor="end" fill="#A4A4A4">ROUTING / 01</text>
+    </g>
+
+    <g id="dark-incoming-lanes">
+      <path d="M178 170.5H211C248 170.5 246 237 292 237M178 240.5H292M178 310.5H211C248 310.5 246 244 292 244"
+        stroke="#727272" stroke-width="1.3"/>
+      <path d="M210 170.5H224M239 240.5H254M210 310.5H224" stroke="#B2B2B2" stroke-width="1.7" stroke-linecap="round"/>
+      <circle cx="214" cy="240.5" r="3" fill="#3B3B3B" stroke="#727272"/>
+        <g transform="translate(54 149)">
+          <rect width="124" height="43" rx="11" fill="url(#dark-chip)" stroke="#363636"/>
+          <g transform="translate(23 21.5)" stroke="#A4A4A4" stroke-width="1.25"><path d="M-7-5H7v9H0l-4 3V4h-3Z M-4-1h8"/></g>
+          <text x="44" y="26" font-size="14" font-weight="500" fill="#A4A4A4">Text</text>
+          <circle cx="108" cy="21.5" r="2" fill="#727272"/>
+        </g>
+        <g transform="translate(54 219)">
+          <rect width="124" height="43" rx="11" fill="url(#dark-chip)" stroke="#363636"/>
+          <g transform="translate(23 21.5)" stroke="#A4A4A4" stroke-width="1.25"><path d="M-7-6H7V6H-7Z M-6 4l4-4 3 3 3-5 2 3 M-3-3h.1"/></g>
+          <text x="44" y="26" font-size="14" font-weight="500" fill="#A4A4A4">Vision</text>
+          <circle cx="108" cy="21.5" r="2" fill="#727272"/>
+        </g>
+        <g transform="translate(54 289)">
+          <rect width="124" height="43" rx="11" fill="url(#dark-chip)" stroke="#363636"/>
+          <g transform="translate(23 21.5)" stroke="#A4A4A4" stroke-width="1.25"><path d="M-7-1v2m3-4v6m4-9v12m4-9v6m3-4v2"/></g>
+          <text x="44" y="26" font-size="14" font-weight="500" fill="#A4A4A4">Audio</text>
+          <circle cx="108" cy="21.5" r="2" fill="#727272"/>
+        </g>
+    </g>
+    <g id="dark-model-routes">
+      <path d="M397 226H431Q449 226 449 208V149Q449 131 467 131H534
+        M397 256H431Q449 256 449 274V323Q449 341 467 341H534"
+        stroke="#727272" stroke-width="1.2" stroke-opacity=".76"/>
+      <path d="M397 241H505" stroke="url(#dark-live-path)" stroke-width="2.1"/>
+      <path d="M479 236.5l4.5 4.5-4.5 4.5m9-9 4.5 4.5-4.5 4.5" stroke="#B2B2B2" stroke-width="1.25" stroke-linecap="round"/>
+      <circle cx="485" cy="131" r="3.2" fill="#1E1E1E" stroke="#727272"/>
+      <circle cx="485" cy="341" r="3.2" fill="#1E1E1E" stroke="#727272"/>
+        <g transform="translate(534 110)">
+          <rect width="110" height="42" rx="11" fill="url(#dark-chip)" stroke="#363636"/>
+          <circle cx="16" cy="21" r="3" stroke="#727272"/>
+          <text x="29" y="25.5" font-size="12" fill="#A4A4A4">Model 01</text>
+        </g>
+        <g transform="translate(534 320)">
+          <rect width="110" height="42" rx="11" fill="url(#dark-chip)" stroke="#363636"/>
+          <circle cx="16" cy="21" r="3" stroke="#727272"/>
+          <text x="29" y="25.5" font-size="12" fill="#A4A4A4">Model 03</text>
+        </g>
+    </g>
+
+    <g id="dark-router">
+      <rect x="286.5" y="188.5" width="112" height="105" rx="20" fill="url(#dark-chip)" stroke="#626262"/>
+      <rect x="289.5" y="191.5" width="106" height="99" rx="17" stroke="url(#dark-reflection)"/>
+      <rect x="311" y="205" width="64" height="55" rx="13" fill="#292929" stroke="#363636"/>
+      <path d="M327 233h9c7 0 8-12 15-12h7m-22 12c7 0 8 12 15 12h7m-22-12h22"
+        stroke="#B2B2B2" stroke-width="1.8" stroke-linecap="round"/>
+      <g fill="#EEEEEE"><circle cx="327" cy="233" r="2.4"/><circle cx="359" cy="221" r="2.4"/><circle cx="359" cy="233" r="2.4"/><circle cx="359" cy="245" r="2.4"/></g>
+      <text x="342.5" y="279" text-anchor="middle" fill="#A4A4A4" font-size="12" font-weight="550">Router</text>
+    </g>
+    <g id="dark-routing-trigger" transform="translate(451 241)">
+      <circle r="17" fill="#F1F1F1" opacity=".055"/><circle r="11" fill="#3B3B3B" stroke="#727272" stroke-width="1.2"/>
+      <circle r="4.5" fill="#F1F1F1"/>
+      <path d="M0-24v-8M0 24v8" stroke="#727272" stroke-opacity=".7"/>
+    </g>
+
+    <g id="dark-active-model">
+      <rect x="510" y="211" width="133" height="97" rx="26" fill="#050505" opacity=".74" filter="url(#cast-shadow)"/>
+      <rect x="512" y="276" width="129" height="24" rx="12" fill="#050505" opacity=".83" filter="url(#contact-shadow)"/>
+      <rect x="504.75" y="187.75" width="142.5" height="106.5" rx="19" fill="url(#dark-lift)" stroke="url(#dark-rim)" stroke-width="1.5"/>
+      <rect x="507" y="190" width="138" height="102" rx="17" stroke="url(#dark-reflection)" stroke-width="1.15"/>
+      <rect x="510" y="193" width="132" height="96" rx="14" stroke="#777777" stroke-opacity=".72" stroke-width=".9"/>
+      <g transform="translate(538 219)" stroke="#EEEEEE" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="-8" y="-8" width="16" height="16" rx="3.5"/>
+        <path d="M-3-12v4m6-4v4m-6 16v4m6-4v4M-12-3h4m-4 6h4m16-6h4m-4 6h4"/>
+        <rect x="-2.5" y="-2.5" width="5" height="5" rx="1.1"/>
+      </g>
+      <g fill="#C5C5C5" opacity=".3">
+        <circle cx="612" cy="240" r=".8"/><circle cx="625" cy="236" r=".65"/><circle cx="619" cy="247" r=".65"/>
+        <circle cx="632" cy="243" r=".53"/><circle cx="610" cy="250" r=".53"/><circle cx="629" cy="252" r=".48"/>
+      </g>
+      <text x="523" y="258" font-size="17" font-weight="600" fill="#EEEEEE">Model 02</text>
+      <text x="534" y="279" font-family="Menlo, Consolas, monospace" font-size="9.5" letter-spacing="1.1" fill="#A4A4A4">ACTIVE</text>
+      <circle cx="525" cy="275.5" r="2.4" fill="#F1F1F1"/>
+      <circle cx="626" cy="208" r="4.3" fill="#3B3B3B" stroke="#727272"/>
+      <circle cx="626" cy="208" r="1.6" fill="#F1F1F1"/>
+    </g>
+    <g id="dark-scale" stroke="#414141" opacity=".78">
+      <path d="M43 423H648"/><path d="M43 423v7"/><path d="M56 423v4"/><path d="M69 423v4"/><path d="M82 423v4"/><path d="M95 423v4"/><path d="M108 423v7"/><path d="M121 423v4"/><path d="M134 423v4"/><path d="M147 423v4"/><path d="M160 423v4"/><path d="M173 423v7"/><path d="M186 423v4"/><path d="M199 423v4"/><path d="M212 423v4"/><path d="M225 423v4"/><path d="M238 423v7"/><path d="M251 423v4"/><path d="M264 423v4"/><path d="M277 423v4"/><path d="M290 423v4"/><path d="M303 423v7"/><path d="M316 423v4"/><path d="M329 423v4"/><path d="M342 423v4"/><path d="M355 423v4"/><path d="M368 423v7"/><path d="M381 423v4"/><path d="M394 423v4"/><path d="M407 423v4"/><path d="M420 423v4"/><path d="M433 423v7"/><path d="M446 423v4"/><path d="M459 423v4"/><path d="M472 423v4"/><path d="M485 423v4"/><path d="M498 423v7"/><path d="M511 423v4"/><path d="M524 423v4"/><path d="M537 423v4"/><path d="M550 423v4"/><path d="M563 423v7"/><path d="M576 423v4"/><path d="M589 423v4"/><path d="M602 423v4"/><path d="M615 423v4"/><path d="M628 423v7"/><path d="M641 423v4"/>
+    </g>
+    <g fill="#A4A4A4" font-family="Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6">
+      <text x="43" y="454">03 INPUTS</text>
+      <text x="649" y="454" text-anchor="end">01 ACTIVE MODEL</text>
+    </g>
+  </g>
+  <g id="light-mode" transform="translate(729 161)" clip-path="url(#light-clip)">
+    <rect width="693" height="484" fill="#FFFFFF"/>
+    <g id="light-underlay" mask="url(#scene-fade)">
+      <rect x="35" y="78" width="623" height="344" fill="url(#light-dot-grid)"/>
+      <g fill="#F7F7F7" fill-opacity=".39" stroke="#E3E3E3" stroke-opacity=".62" stroke-width=".85">
+          <rect x="42" y="94" width="144" height="86" rx="16"/>
+          <rect x="199" y="94" width="74" height="86" rx="16"/>
+          <rect x="286" y="94" width="145" height="86" rx="16"/>
+          <rect x="444" y="94" width="71" height="86" rx="16"/>
+          <rect x="528" y="94" width="121" height="86" rx="16"/>
+          <rect x="42" y="193" width="117" height="104" rx="16"/>
+          <rect x="172" y="193" width="100" height="104" rx="16"/>
+          <rect x="285" y="193" width="145" height="104" rx="16"/>
+          <rect x="443" y="193" width="96" height="104" rx="16"/>
+          <rect x="552" y="193" width="97" height="104" rx="16"/>
+          <rect x="42" y="310" width="147" height="82" rx="16"/>
+          <rect x="202" y="310" width="98" height="82" rx="16"/>
+          <rect x="313" y="310" width="117" height="82" rx="16"/>
+          <rect x="443" y="310" width="206" height="82" rx="16"/>
+      </g>
+      <path d="M35 241H658M348 81V420" stroke="#D1D1D1" opacity=".42" stroke-dasharray="3 6"/>
+      <circle cx="348" cy="241" r="122" stroke="#D1D1D1" opacity=".49"/>
+      <circle cx="348" cy="241" r="149" stroke="#D1D1D1" opacity=".34" stroke-dasharray="2 7"/>
+      <path d="M57 96v15m-7-7h14m579-8v15m-7-7h14M57 376v15m-7-7h14m579-8v15m-7-7h14" stroke="#A0A0A0" opacity=".45"/>
+    </g>
+    <ellipse cx="554" cy="242" rx="155" ry="156" fill="url(#light-halo)"/>
+    <g id="light-theme-label" font-family="Menlo, Consolas, monospace" font-size="12" letter-spacing="1.35">
+      <rect x="33" y="28" width="125" height="30" rx="15" fill="url(#light-chip)" stroke="#E3E3E3"/>
+      <circle cx="49" cy="43" r="3.25" fill="#1E1E1E"/>
+      <text x="63" y="47" fill="#242424">02 / LIGHT</text>
+      <text x="657" y="47" text-anchor="end" fill="#666666">ROUTING / 01</text>
+    </g>
+
+    <g id="light-incoming-lanes">
+      <path d="M178 170.5H211C248 170.5 246 237 292 237M178 240.5H292M178 310.5H211C248 310.5 246 244 292 244"
+        stroke="#A0A0A0" stroke-width="1.3"/>
+      <path d="M210 170.5H224M239 240.5H254M210 310.5H224" stroke="#464646" stroke-width="1.7" stroke-linecap="round"/>
+      <circle cx="214" cy="240.5" r="3" fill="#FFFFFF" stroke="#A0A0A0"/>
+        <g transform="translate(54 149)">
+          <rect width="124" height="43" rx="11" fill="url(#light-chip)" stroke="#E3E3E3"/>
+          <g transform="translate(23 21.5)" stroke="#666666" stroke-width="1.25"><path d="M-7-5H7v9H0l-4 3V4h-3Z M-4-1h8"/></g>
+          <text x="44" y="26" font-size="14" font-weight="500" fill="#666666">Text</text>
+          <circle cx="108" cy="21.5" r="2" fill="#A0A0A0"/>
+        </g>
+        <g transform="translate(54 219)">
+          <rect width="124" height="43" rx="11" fill="url(#light-chip)" stroke="#E3E3E3"/>
+          <g transform="translate(23 21.5)" stroke="#666666" stroke-width="1.25"><path d="M-7-6H7V6H-7Z M-6 4l4-4 3 3 3-5 2 3 M-3-3h.1"/></g>
+          <text x="44" y="26" font-size="14" font-weight="500" fill="#666666">Vision</text>
+          <circle cx="108" cy="21.5" r="2" fill="#A0A0A0"/>
+        </g>
+        <g transform="translate(54 289)">
+          <rect width="124" height="43" rx="11" fill="url(#light-chip)" stroke="#E3E3E3"/>
+          <g transform="translate(23 21.5)" stroke="#666666" stroke-width="1.25"><path d="M-7-1v2m3-4v6m4-9v12m4-9v6m3-4v2"/></g>
+          <text x="44" y="26" font-size="14" font-weight="500" fill="#666666">Audio</text>
+          <circle cx="108" cy="21.5" r="2" fill="#A0A0A0"/>
+        </g>
+    </g>
+    <g id="light-model-routes">
+      <path d="M397 226H431Q449 226 449 208V149Q449 131 467 131H534
+        M397 256H431Q449 256 449 274V323Q449 341 467 341H534"
+        stroke="#A0A0A0" stroke-width="1.2" stroke-opacity=".76"/>
+      <path d="M397 241H505" stroke="url(#light-live-path)" stroke-width="2.1"/>
+      <path d="M479 236.5l4.5 4.5-4.5 4.5m9-9 4.5 4.5-4.5 4.5" stroke="#464646" stroke-width="1.25" stroke-linecap="round"/>
+      <circle cx="485" cy="131" r="3.2" fill="#FFFFFF" stroke="#A0A0A0"/>
+      <circle cx="485" cy="341" r="3.2" fill="#FFFFFF" stroke="#A0A0A0"/>
+        <g transform="translate(534 110)">
+          <rect width="110" height="42" rx="11" fill="url(#light-chip)" stroke="#E3E3E3"/>
+          <circle cx="16" cy="21" r="3" stroke="#A0A0A0"/>
+          <text x="29" y="25.5" font-size="12" fill="#666666">Model 01</text>
+        </g>
+        <g transform="translate(534 320)">
+          <rect width="110" height="42" rx="11" fill="url(#light-chip)" stroke="#E3E3E3"/>
+          <circle cx="16" cy="21" r="3" stroke="#A0A0A0"/>
+          <text x="29" y="25.5" font-size="12" fill="#666666">Model 03</text>
+        </g>
+    </g>
+
+    <g id="light-router">
+      <rect x="286.5" y="188.5" width="112" height="105" rx="20" fill="url(#light-chip)" stroke="#B5B5B5"/>
+      <rect x="289.5" y="191.5" width="106" height="99" rx="17" stroke="url(#light-reflection)"/>
+      <rect x="311" y="205" width="64" height="55" rx="13" fill="#F7F7F7" stroke="#E3E3E3"/>
+      <path d="M327 233h9c7 0 8-12 15-12h7m-22 12c7 0 8 12 15 12h7m-22-12h22"
+        stroke="#464646" stroke-width="1.8" stroke-linecap="round"/>
+      <g fill="#242424"><circle cx="327" cy="233" r="2.4"/><circle cx="359" cy="221" r="2.4"/><circle cx="359" cy="233" r="2.4"/><circle cx="359" cy="245" r="2.4"/></g>
+      <text x="342.5" y="279" text-anchor="middle" fill="#666666" font-size="12" font-weight="550">Router</text>
+    </g>
+    <g id="light-routing-trigger" transform="translate(451 241)">
+      <circle r="17" fill="#1E1E1E" opacity=".055"/><circle r="11" fill="#FFFFFF" stroke="#A0A0A0" stroke-width="1.2"/>
+      <circle r="4.5" fill="#1E1E1E"/>
+      <path d="M0-24v-8M0 24v8" stroke="#A0A0A0" stroke-opacity=".7"/>
+    </g>
+
+    <g id="light-active-model">
+      <rect x="510" y="211" width="133" height="97" rx="26" fill="#202020" opacity=".23" filter="url(#cast-shadow)"/>
+      <rect x="512" y="276" width="129" height="24" rx="12" fill="#202020" opacity=".24" filter="url(#contact-shadow)"/>
+      <rect x="504.75" y="187.75" width="142.5" height="106.5" rx="19" fill="url(#light-lift)" stroke="url(#light-rim)" stroke-width="1.5"/>
+      <rect x="507" y="190" width="138" height="102" rx="17" stroke="url(#light-reflection)" stroke-width="1.15"/>
+      <rect x="510" y="193" width="132" height="96" rx="14" stroke="#D2D2D2" stroke-opacity=".72" stroke-width=".9"/>
+      <g transform="translate(538 219)" stroke="#242424" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="-8" y="-8" width="16" height="16" rx="3.5"/>
+        <path d="M-3-12v4m6-4v4m-6 16v4m6-4v4M-12-3h4m-4 6h4m16-6h4m-4 6h4"/>
+        <rect x="-2.5" y="-2.5" width="5" height="5" rx="1.1"/>
+      </g>
+      <g fill="#6B6B6B" opacity=".3">
+        <circle cx="612" cy="240" r=".8"/><circle cx="625" cy="236" r=".65"/><circle cx="619" cy="247" r=".65"/>
+        <circle cx="632" cy="243" r=".53"/><circle cx="610" cy="250" r=".53"/><circle cx="629" cy="252" r=".48"/>
+      </g>
+      <text x="523" y="258" font-size="17" font-weight="600" fill="#242424">Model 02</text>
+      <text x="534" y="279" font-family="Menlo, Consolas, monospace" font-size="9.5" letter-spacing="1.1" fill="#666666">ACTIVE</text>
+      <circle cx="525" cy="275.5" r="2.4" fill="#1E1E1E"/>
+      <circle cx="626" cy="208" r="4.3" fill="#FFFFFF" stroke="#A0A0A0"/>
+      <circle cx="626" cy="208" r="1.6" fill="#1E1E1E"/>
+    </g>
+    <g id="light-scale" stroke="#D1D1D1" opacity=".78">
+      <path d="M43 423H648"/><path d="M43 423v7"/><path d="M56 423v4"/><path d="M69 423v4"/><path d="M82 423v4"/><path d="M95 423v4"/><path d="M108 423v7"/><path d="M121 423v4"/><path d="M134 423v4"/><path d="M147 423v4"/><path d="M160 423v4"/><path d="M173 423v7"/><path d="M186 423v4"/><path d="M199 423v4"/><path d="M212 423v4"/><path d="M225 423v4"/><path d="M238 423v7"/><path d="M251 423v4"/><path d="M264 423v4"/><path d="M277 423v4"/><path d="M290 423v4"/><path d="M303 423v7"/><path d="M316 423v4"/><path d="M329 423v4"/><path d="M342 423v4"/><path d="M355 423v4"/><path d="M368 423v7"/><path d="M381 423v4"/><path d="M394 423v4"/><path d="M407 423v4"/><path d="M420 423v4"/><path d="M433 423v7"/><path d="M446 423v4"/><path d="M459 423v4"/><path d="M472 423v4"/><path d="M485 423v4"/><path d="M498 423v7"/><path d="M511 423v4"/><path d="M524 423v4"/><path d="M537 423v4"/><path d="M550 423v4"/><path d="M563 423v7"/><path d="M576 423v4"/><path d="M589 423v4"/><path d="M602 423v4"/><path d="M615 423v4"/><path d="M628 423v7"/><path d="M641 423v4"/>
+    </g>
+    <g fill="#666666" font-family="Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6">
+      <text x="43" y="454">03 INPUTS</text>
+      <text x="649" y="454" text-anchor="end">01 ACTIVE MODEL</text>
+    </g>
+  </g>
+    <rect x="18.5" y="161.5" width="692" height="483" rx="17.5" stroke="#393939"/>
+  </g>
+</svg>

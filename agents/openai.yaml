@@ -1,0 +1,4 @@
+interface:
+  display_name: "NB Illustration"
+  short_description: "生成单色官网功能插画，默认交付炭灰底和白底两份可编辑 SVG"
+  default_prompt: "用 $nb-illustration 画一张 API 请求分流的官网功能卡插画，横版 16:9。"
